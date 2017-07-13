@@ -1,0 +1,250 @@
+.Global-header{
+  width: 100%;
+  background: #ddd;
+}
+.Header-inner{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  line-height: 60px;
+  height: 60px;
+  max-width: 960px;
+}
+.Header-contents{
+  display: flex;
+  justify-content: center;
+}
+.Header-logo{
+  display: block;
+  width: 90px;
+  height: 90px;
+  padding-right: 50px;
+}
+.Header-navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.Header-navigation li{
+  padding-right: 30px;
+}
+.Header-navigation li:last-child{
+  padding-right: 0;
+}
+.Header-navigation a{
+  font-size: 14px;
+  color: #111;
+  letter-spacing: 1px;
+}
+.Hero{
+  height: 600px;
+  background-image: url(../img/hero_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.Hero-inner{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Hero-logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+}
+.About{
+  background-color: #f8f8f8;
+}
+.About-inner{
+  height: 450px;
+}
+.About-contents{
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 140px 0 140px;
+}
+.About-title{
+  font-size: 24px;
+  font-weight: bold;
+  color: #149e7b;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.About-description{
+  font-size: 16px;
+  line-height: 30px;
+}
+.Button{
+  width: 250px;
+  height: 44px;
+  line-height: 44px;
+  margin: 50px auto;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.Button-clear{
+  font-weight: bold;
+  color: #111;
+  border: 3px solid #111;
+  position: relative;
+  display: inline-block;
+}
+.Button-clear::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 0px;
+  border-top: solid 2px #111;
+  border-right: solid 2px #111;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+a{
+  text-decoration: none;
+}
+hr{
+  margin: -1px auto;
+  width: 80%;
+}
+.NewsPick{
+  background: #f8f8f8;
+}
+.NewsPick-description{
+  padding-left: 10px;
+}
+.NewsPick-inner{
+  height: 450px;
+}
+.NewsPick-contents{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+.NewsPick-title{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #149e7b;
+  letter-spacing: 2px;
+}
+.NewsPick-scroll{
+  align-items: center;
+  justify-content: center;
+  height: 10.9em;
+  line-height: 20px;
+  overflow: scroll;
+  margin: auto;
+}
+.Button-layout{
+  text-align: center;
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.Search{
+  background: #f8f8f8;
+}
+.Search-inner{
+  height: 350px;
+}
+.Search-contents{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 40px;
+}
+.Search-title{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #149e7b;
+  letter-spacing: 2px;
+}
+.icon2{
+  width: 20px;
+  height: 20px;
+}
+.icon{
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  background-size: 20px;
+  background-image: url(../img/Search_icon.png);
+}
+.textInput{
+  background: #ddd;
+  width: 500px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+.Menu{
+  background: #f8f8f8;
+}
+.Menu-inner{/*widthを指定すると基準が左端に・・・*/
+  height: 850px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.Menu-title{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #149e7b;
+  letter-spacing: 2px;
+}
+.Menu-images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Menu-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.Menu-contents img{
+  margin-bottom: 10px;
+  height: 170px;
+  width: 300px;
+}
+.Apart-name{
+  font-weight: bold;
+}
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  height: 40px;
+  background-color: #111;
+  color: #EEEEEE;
+}
+
+
+.google-font{
+  font-family: 'Josefin Sans', sans-serif;
+}
